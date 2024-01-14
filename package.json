@@ -1,0 +1,15 @@
+{
+  "name": "collaborative-web-app",
+  "version": "1.0.0",
+  "description": "Full-stack collaborative web application",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha tests/**/*.test.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": ["express", "api", "web-app"],
+  "author": "Development Team",
+  "license": "MIT"
+}
