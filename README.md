@@ -1,37 +1,44 @@
-# Repository 05: Remote-workflows 🟡 Intermediate
+# Collaborative Web Application
 
-**Master Git remote operations**
+A full-stack web application built collaboratively by a team of developers.
 
-## 🎯 Learning Objectives
+## Team Members
 
-- Practical remote operations skills
-- Hands-on exercises
-- Real-world scenarios
+- Alice Johnson - Backend Lead
+- Bob Smith - Frontend Lead
+- Carol Davis - Backend Developer
+- Dave Wilson - DevOps Engineer
 
-## 📊 Difficulty: 🟡 Intermediate
+## Features
 
-**Estimated Time:** 4-5 hours
+- RESTful API
+- User authentication
+- Post management
+- Comments and likes
+- Follow system
+- Real-time notifications
+- Caching with Redis
+- Containerized with Docker
 
-## 🚀 Getting Started
-
-Run the setup script:
+## Getting Started
 
 ```bash
-chmod +x build-history.sh
-./build-history.sh
+npm install
+npm start
 ```
 
-**Need to start over?** Just run `./build-history.sh` again and type `y` to reset!
+## Development
 
-Then start with [EXERCISES.md](./EXERCISES.md)!
+```bash
+docker-compose up
+```
 
-## 📚 What's Included
+## Testing
 
-- **EXERCISES.md** - Hands-on practice
-- **GIT-CHEATSHEET.md** - Command reference
-- **TROUBLESHOOTING.md** - Common issues
-- **build-history.sh** - Setup script
+```bash
+npm test
+```
 
----
+## Documentation
 
-**Ready to learn? Start practicing!** 🚀
+See [API.md](docs/API.md) for API documentation.
