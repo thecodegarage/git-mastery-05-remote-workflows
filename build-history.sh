@@ -23,8 +23,8 @@ if [ -d "src" ]; then
     fi
     
     echo -e "${BLUE}🧹 Cleaning up existing practice environment...${NC}"
-    rm -rf src/
     git reset --hard origin/master 2>/dev/null || git reset --hard HEAD~10 2>/dev/null || true
+    rm -rf src/
     git branch | grep -v "^\*" | grep -v "master" | grep -v "main" | xargs -r git branch -D 2>/dev/null || true
     echo -e "${GREEN}✅ Cleanup complete${NC}"
     echo ""
